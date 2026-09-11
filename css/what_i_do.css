@@ -1,0 +1,39 @@
+section {
+  background-color: #f8f8f8;
+}
+
+.do-me {
+  display: flex;
+  gap: 2.5rem;
+}
+
+section .do-me .do-inner {
+  flex: 1; /* 3개의 카드가 부모 공간을 정확히 1:1:1로 균등 분할 */
+  padding: 2rem;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* 카드 입체감 필요 시 */
+}
+
+section .do-me .do-inner .icon i {
+  font-size: 2.5rem;
+  color: #ff6a6a;
+}
+
+section .do-me .do-inner .content h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+section .do-me .do-inner .content p {
+  font-size: 1.15rem;
+}
+
+section .do-me .do-inner:hover {
+  background-color: lightcoral;
+  color: white;
+}
+
+section .do-me .do-inner:hover .icon i {
+  color: white;
+}
