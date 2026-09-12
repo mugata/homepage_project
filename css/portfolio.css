@@ -1,0 +1,26 @@
+section .portfolio-me {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 5%;
+}
+
+section .portfolio-inner {
+  background-color: #fff;
+  padding: 1rem 1rem 1.5rem;
+  border: 1px solid #ccc;
+}
+
+.portfolio-inner img {
+  display: block;
+  width: 100%;
+}
+
+.portfolio-inner strong {
+  color: #fa6a6a;
+  margin: 0.5rem 0;
+  display: block;
+}
+
+.portfolio-inner h3 {
+  font-size: 1.75rem;
+}
