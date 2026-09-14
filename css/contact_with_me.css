@@ -1,0 +1,69 @@
+.contact-me {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+/* 왼쪽 연락처 목록 */
+.left {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.left .card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  /* gap: 1.25rem; */
+  margin-bottom: 1.25rem;
+}
+.icon i {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+.contact-me .right .form-group {
+  margin-bottom: 1.25rem;
+}
+
+.right {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.contact-me .right .form-group label {
+  display: block;
+  margin-bottom: 0.85rem;
+}
+.contact-me .right .form-group input {
+  width: 100%;
+  padding: 0.625rem;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contact-me .right .form-group input:focus,
+.contact-me .right .form-group textarea:focus {
+  cursor: 1px solid #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.contact-me .right .form-group textarea {
+  width: 100%;
+  height: 300px;
+  outline: none;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contact-me .right button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #f78b00;
+  border: none;
+  color: white;
+}
